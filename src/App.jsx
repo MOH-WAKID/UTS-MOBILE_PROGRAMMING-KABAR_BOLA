@@ -28,7 +28,7 @@ const MenuTab = () => {
         component={Berita}
         options={{
           tabBarIcon: ({size, color}) => (
-            <MaterialCommunityIcons name="cog" size={size} color={color} />
+            <MaterialCommunityIcons name="home" size={size} color={color} />
           ),
         }}
       />
@@ -37,7 +37,7 @@ const MenuTab = () => {
         component={About}
         options={{
           tabBarIcon: ({size, color}) => (
-            <MaterialCommunityIcons name="home" size={size} color={color} />
+            <MaterialCommunityIcons name="cog" size={size} color={color} />
           ),
         }}
       />
