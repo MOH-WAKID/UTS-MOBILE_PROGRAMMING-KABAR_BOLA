@@ -4,8 +4,9 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import About from './screens/About';
+import About from './screens/Tentang';
 import Home from './screens/Depan';
+import Berita from './screens/Berita';
 
 const Stack = createNativeStackNavigator();
 const Tabs = createBottomTabNavigator();
@@ -23,11 +24,20 @@ const MenuTab = () => {
         }}
       />
       <Tabs.Screen
+        name="Berita"
+        component={Berita}
+        options={{
+          tabBarIcon: ({size, color}) => (
+            <MaterialCommunityIcons name="cog" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="Tentang"
         component={About}
         options={{
           tabBarIcon: ({size, color}) => (
-            <MaterialCommunityIcons name="cog" size={size} color={color} />
+            <MaterialCommunityIcons name="home" size={size} color={color} />
           ),
         }}
       />
