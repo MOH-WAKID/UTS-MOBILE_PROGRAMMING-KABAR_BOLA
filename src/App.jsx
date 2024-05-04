@@ -13,7 +13,7 @@ const Tabs = createBottomTabNavigator();
 
 const MenuTab = () => {
   return (
-    <Tabs.Navigator screenOptions={{tabBarActiveTintColor: 'green'}}>
+    <Tabs.Navigator screenOptions={{tabBarActiveTintColor: 'blue'}}>
       <Tabs.Screen
         name="Halaman Depan"
         component={Home}
