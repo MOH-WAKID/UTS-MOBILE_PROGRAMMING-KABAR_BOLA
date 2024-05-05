@@ -7,6 +7,8 @@ const Data = [
   {id: 3, title: 'Hasil Piala Asia U-23 2024, Irak U-23 vs Indonesia U-23: Skor 2-1 (AET)'},
   {id: 4, title: 'Selamat, Parma Promosi ke Serie A Lagi!'},
   {id: 5, title: 'Como, Klub Milik Orang Indoenesia yang Selangkah Lagi Promosi ke Serie A'},
+  {id: 6, title: 'Barcelona Sah Tutup Musim Ini (2023/2024) Tanpa Gelar Juara'},
+  
 ];
 
 const Home = ({navigation}) => {
