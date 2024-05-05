@@ -8,6 +8,10 @@ const Data = [
   {id: 4, title: 'Selamat, Parma Promosi ke Serie A Lagi!'},
   {id: 5, title: 'Como, Klub Milik Orang Indoenesia yang Selangkah Lagi Promosi ke Serie A'},
   {id: 6, title: 'Barcelona Sah Tutup Musim Ini (2023/2024) Tanpa Gelar Juara'},
+  {id: 7, title: 'Cristiano Ronaldo Hattrick, Al Nasrr Hajar Al Wehda 6-0'},
+  {id: 8, title: 'Hasil Girona vs Barcelona: 4-2'},
+  {id: 9, title: 'Barcelona Kalah, Real Madrid Juara La Liga 2023/2024'},
+  {id: 10, title: 'RESMI! Laga Timnas Indoenesia U-23 vs Guinea Disiarkan Secara Live Straeming di FIFA+'},
   
 ];
 
