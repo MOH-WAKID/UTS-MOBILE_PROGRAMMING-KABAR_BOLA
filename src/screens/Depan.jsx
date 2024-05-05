@@ -1,11 +1,10 @@
 import { StyleSheet, Text, View, TouchableOpacity, ImageBackground } from 'react-native';
 import React from 'react';
-import Style from '../component/IconMenu';
 
 const Home = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <ImageBackground source={require('../assets/Timnas.jpeg')} style={styles.background}>
+      <ImageBackground source={require('../component/Timnas.jpeg')} style={styles.background}>
         <View style={styles.content}>
           <Text style={styles.pageTitle}>Berita</Text>
           <Text style={styles.pageSubtitle}>Sepak Bola Terbaru</Text>
